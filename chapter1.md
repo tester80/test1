@@ -53,7 +53,7 @@ msg_success <- "Right but..."
 # Use test_mc() to grade multiple choice exercises. 
 # Pass the correct option (Action, option 2 in the instructions) to correct.
 # Pass the feedback messages, both positive and negative, to feedback_msgs in the appropriate order.
-test_mc(correct = 4, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad)) 
+test_mc(correct = 4, feedback_msgs = c(msg_bad, msg_bad, msg_bad, msg_success, msg_bad, msg_bad)) 
 ```
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:80f4f1c8f8
