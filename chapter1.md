@@ -48,7 +48,7 @@ ggplot(movies, aes(x = runtime, y = rating, col = genre)) + geom_point()
 # testwhat R package
 
 msg_bad <- "Try again
-msg_success <- "Right but..."
+msg_success <- "Right but...
 
 # Use test_mc() to grade multiple choice exercises. 
 # Pass the correct option (Action, option 2 in the instructions) to correct.
