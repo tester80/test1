@@ -1,6 +1,6 @@
 ---
-title       : Insert the chapter title here
-description : Insert the chapter description here
+title       : Mememe
+description : Myself and I
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
@@ -19,10 +19,12 @@ Have a look at the plot that showed up in the viewer to the right. Which type of
 - Adventure
 - Action
 - Animation
-- Comedy
+- WTF
+- Really?
+- Seriously
 
 *** =hint
-Have a look at the plot. Which color does the point with the lowest rating have?
+Do you really need to ask?
 
 *** =pre_exercise_code
 ```{r}
@@ -45,13 +47,13 @@ ggplot(movies, aes(x = runtime, y = rating, col = genre)) + geom_point()
 # evaluate the student's response. All functions used here are defined in the 
 # testwhat R package
 
-msg_bad <- "That is not correct!"
-msg_success <- "Exactly! There seems to be a very bad action movie in the dataset."
+msg_bad <- "Try again
+msg_success <- "Right but..."
 
 # Use test_mc() to grade multiple choice exercises. 
 # Pass the correct option (Action, option 2 in the instructions) to correct.
 # Pass the feedback messages, both positive and negative, to feedback_msgs in the appropriate order.
-test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad)) 
+test_mc(correct = 4, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad)) 
 ```
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:80f4f1c8f8
